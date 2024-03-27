@@ -1,0 +1,77 @@
+.numvars 12
+.variables f0 x10 x9 x8 x7 x6 x5 x4 x3 x2 x1 x0
+.inputs 0 x10 x9 x8 x7 x6 x5 x4 x3 x2 x1 x0
+.outputs f0 x10 x9 x8 x7 x6 x5 x4 x3 x2 x1 x0
+.constants 0-----------
+.garbage 11111111111-
+t1 x10 
+t2 x10 x10 
+t3 x0 x10 f0
+t1 x10 
+t2 x10 x10 
+t3 x0 x10 f0
+t2 x8 x10 
+t2 x9 x10 
+t3 x0 x10 f0
+t2 x8 x10 
+t2 x9 x10 
+t3 x0 x10 f0
+t3 x1 x8 f0
+t3 x10 x4 f0
+t3 x2 x9 f0
+t4 x0 x10 x8 f0
+t2 x10 x10 
+t2 x8 x10 
+t4 x0 x9 x10 f0
+t2 x10 x10 
+t2 x8 x10 
+t4 x0 x9 x10 f0
+t2 x10 x10 
+t2 x9 x10 
+t4 x1 x8 x10 f0
+t2 x10 x10 
+t2 x9 x10 
+t4 x1 x8 x10 f0
+t3 x2 x9 x10 
+t3 x4 x8 x10 
+t3 x10 x10 f0
+t3 x2 x9 x10 
+t3 x4 x8 x10 
+t3 x10 x10 f0
+t3 x4 x9 x10 
+t3 x5 x8 x10 
+t3 x10 x10 f0
+t3 x4 x9 x10 
+t3 x5 x8 x10 
+t3 x10 x10 f0
+t3 x10 x6 x10 
+t3 x2 x8 x10 
+t3 x9 x10 f0
+t3 x10 x6 x10 
+t3 x2 x8 x10 
+t3 x9 x10 f0
+t2 x3 x10 
+t3 x0 x10 x10 
+t4 x8 x9 x10 f0
+t2 x3 x10 
+t3 x0 x10 x10 
+t4 x8 x9 x10 f0
+t2 x1 x10 
+t2 x2 x10 
+t5 x10 x8 x9 x10 f0
+t2 x1 x10 
+t2 x2 x10 
+t5 x10 x8 x9 x10 f0
+t2 x3 x10 
+t2 x4 x10 
+t5 x10 x8 x9 x10 f0
+t2 x3 x10 
+t2 x4 x10 
+t5 x10 x8 x9 x10 f0
+t2 x5 x10 
+t2 x6 x10 
+t5 x10 x8 x9 x10 f0
+t2 x5 x10 
+t2 x6 x10 
+t5 x10 x8 x9 x10 f0
+t5 x10 x7 x8 x9 f0

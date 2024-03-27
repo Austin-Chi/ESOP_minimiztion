@@ -1,0 +1,6 @@
+.numvars 22
+.variables f7 f6 f5 f4 f3 f2 f1 f0 x13 x12 x11 x10 x9 x8 x7 x6 x5 x4 x3 x2 x1 x0
+.inputs 0 0 0 0 0 0 0 0 x13 x12 x11 x10 x9 x8 x7 x6 x5 x4 x3 x2 x1 x0
+.outputs f7 f6 f5 f4 f3 f2 f1 f0 x13 x12 x11 x10 x9 x8 x7 x6 x5 x4 x3 x2 x1 x0
+.constants 00000000--------------
+.garbage 11111111111111--------

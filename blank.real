@@ -1,0 +1,248 @@
+Converting... circuit done.
+[x0*x4*(x1 + 1)*(x2 + 1)*(x3 + 1) + x4*(x1 + 1)*(x2 + 1)*(x3 + 1), x0*x1*x4*(x2 + 1) + x0*x4*(x1 + 1)*(x2 + 1)*(x3 + 1) + x0*x4*(x2 + 1) + x3*x4*(x1 + 1)*(x2 + 1), x0*x4*(x1 + 1)*(x2 + 1)*(x3 + 1) + x0*x4*(x1 + 1)*(x3 + 1) + x1*x4 + x3*x4*(x1 + 1) + x4*(x1 + 1)*(x2 + 1)*(x3 + 1) + x4, x0*x1*x2*x4 + x0*x4*(x1 + 1)*(x2 + 1)*(x3 + 1) + x0*x4*(x1 + 1)*(x3 + 1) + x0*x4*(x2 + 1) + x0*x4 + x3*x4*(x1 + 1)*(x2 + 1) + x3*x4*(x1 + 1), x0*x3*x4*(x2 + 1) + x0*x4*(x1 + 1)*(x2 + 1)*(x3 + 1) + x0*x4*(x2 + 1) + x1*x3*x4*(x2 + 1) + x1*x4*(x2 + 1), x0*x1*x4*(x2 + 1) + x0*x3*x4*(x2 + 1) + x0*x4*(x1 + 1)*(x2 + 1)*(x3 + 1) + x0*x4*(x2 + 1) + x1*x3*x4*(x2 + 1), x0*x2*x3*x4 + x0*x4*(x1 + 1)*(x2 + 1)*(x3 + 1) + x0*x4*(x1 + 1)*(x3 + 1) + x0*x4*(x2 + 1) + x0*x4 + x1*x3*x4*(x2 + 1) + x1*x4*(x2 + 1) + x1*x4 + x3*x4*(x1 + 1) + x3*x4, x0*x1*x2*x4 + x0*x2*x3*x4 + x0*x4*(x1 + 1)*(x2 + 1)*(x3 + 1) + x0*x4*(x1 + 1)*(x3 + 1) + x0*x4*(x2 + 1) + x0*x4 + x1*x3*x4*(x2 + 1) + x3*x4*(x1 + 1) + x3*x4, x0*x4*(x1 + 1)*(x2 + 1)*(x3 + 1), x0*x1*x4*(x2 + 1) + x0*x4*(x1 + 1)*(x2 + 1)*(x3 + 1) + x0*x4*(x2 + 1), x0*x4*(x1 + 1)*(x2 + 1)*(x3 + 1) + x0*x4*(x1 + 1)*(x3 + 1), x0*x1*x2*x4 + x0*x4*(x1 + 1)*(x2 + 1)*(x3 + 1) + x0*x4*(x1 + 1)*(x3 + 1) + x0*x4*(x2 + 1) + x0*x4, x0*x3*x4*(x2 + 1) + x0*x4*(x1 + 1)*(x2 + 1)*(x3 + 1) + x0*x4*(x2 + 1), x0*x1*x4*(x2 + 1) + x0*x3*x4*(x2 + 1) + x0*x4*(x1 + 1)*(x2 + 1)*(x3 + 1) + x0*x4*(x2 + 1), x0*x2*x3*x4 + x0*x4*(x1 + 1)*(x2 + 1)*(x3 + 1) + x0*x4*(x1 + 1)*(x3 + 1) + x0*x4*(x2 + 1) + x0*x4, x0*x1*x2*x4 + x0*x2*x3*x4 + x0*x4*(x1 + 1)*(x2 + 1)*(x3 + 1) + x0*x4*(x1 + 1)*(x3 + 1) + x0*x4*(x2 + 1) + x0*x4, x4, x3 + 1, x2 + 1, x1 + 1, x0]
+bit: f7, current_output: [x4**2 + x4, x3**2 + x3, x2**2 + x2, x1**2 + x1, x0**2 + x0, x0*x4*(x1 + 1)*(x2 + 1)*(x3 + 1)]
+bit: f6, current_output: [x4**2 + x4, x3**2 + x3, x2**2 + x2, x1**2 + x1, x0**2 + x0, x0*x1*x4*(x2 + 1) + x0*x4*(x1 + 1)*(x2 + 1)*(x3 + 1) + x0*x4*(x2 + 1)]
+bit: f7, GB: GroebnerBasis([x0*x1*x2*x3*x4 + x0*x1*x2*x4 + x0*x1*x3*x4 + x0*x2*x3*x4 + x0*x1*x4 + x0*x2*x4 + x0*x3*x4 + x0*x4, x4**2 + x4, x3**2 + x3, x2**2 + x2, x1**2 + x1, x0**2 + x0], x4, x3, x2, x1, x0, domain='GF(2)', order='grevlex')
+bit: f6, GB: GroebnerBasis([x0*x1*x2*x3*x4 + x0*x1*x3*x4 + x0*x2*x3*x4 + x0*x3*x4, x4**2 + x4, x3**2 + x3, x2**2 + x2, x1**2 + x1, x0**2 + x0], x4, x3, x2, x1, x0, domain='GF(2)', order='grevlex')
+i: x0*x1*x2*x3*x4 + x0*x1*x3*x4 + x0*x2*x3*x4 + x0*x3*x4, type: <class 'sympy.core.add.Add'>
+i: x0*x1*x2*x3*x4 + x0*x1*x2*x4 + x0*x1*x3*x4 + x0*x1*x4 + x0*x2*x3*x4 + x0*x2*x4 + x0*x3*x4 + x0*x4, type: <class 'sympy.core.add.Add'>
+bit: f10, current_output: [x4**2 + x4, x3**2 + x3, x2**2 + x2, x1**2 + x1, x0**2 + x0, x0*x1*x4*(x2 + 1) + x0*x3*x4*(x2 + 1) + x0*x4*(x1 + 1)*(x2 + 1)*(x3 + 1) + x0*x4*(x2 + 1) + x1*x3*x4*(x2 + 1)]
+bit: f12, current_output: [x4**2 + x4, x3**2 + x3, x2**2 + x2, x1**2 + x1, x0**2 + x0, x0*x1*x2*x4 + x0*x4*(x1 + 1)*(x2 + 1)*(x3 + 1) + x0*x4*(x1 + 1)*(x3 + 1) + x0*x4*(x2 + 1) + x0*x4 + x3*x4*(x1 + 1)*(x2 + 1) + x3*x4*(x1 + 1)]
+bit: f10, GB: GroebnerBasis([x0*x1*x2*x3*x4 + x0*x1*x3*x4 + x1*x2*x3*x4 + x1*x3*x4, x4**2 + x4, x3**2 + x3, x2**2 + x2, x1**2 + x1, x0**2 + x0], x4, x3, x2, x1, x0, domain='GF(2)', order='grevlex')
+i: x0*x1*x2*x3*x4 + x0*x1*x3*x4 + x1*x2*x3*x4 + x1*x3*x4, type: <class 'sympy.core.add.Add'>
+bit: f9, current_output: [x4**2 + x4, x3**2 + x3, x2**2 + x2, x1**2 + x1, x0**2 + x0, x0*x2*x3*x4 + x0*x4*(x1 + 1)*(x2 + 1)*(x3 + 1) + x0*x4*(x1 + 1)*(x3 + 1) + x0*x4*(x2 + 1) + x0*x4 + x1*x3*x4*(x2 + 1) + x1*x4*(x2 + 1) + x1*x4 + x3*x4*(x1 + 1) + x3*x4]
+bit: f12, GB: GroebnerBasis([x0*x1*x2*x3*x4 + x0*x2*x3*x4 + x1*x2*x3*x4 + x2*x3*x4, x4**2 + x4, x3**2 + x3, x2**2 + x2, x1**2 + x1, x0**2 + x0], x4, x3, x2, x1, x0, domain='GF(2)', order='grevlex')
+i: x0*x1*x2*x3*x4 + x0*x2*x3*x4 + x1*x2*x3*x4 + x2*x3*x4, type: <class 'sympy.core.add.Add'>
+i_new: x0*x1*x2*x3*x4 + x0*x1*x3*x4 + x0*x2*x3*x4 + x0*x3*x4
+bit: f15, current_output: [x4**2 + x4, x3**2 + x3, x2**2 + x2, x1**2 + x1, x0**2 + x0, x0*x4*(x1 + 1)*(x2 + 1)*(x3 + 1) + x4*(x1 + 1)*(x2 + 1)*(x3 + 1)]
+bit: f11, current_output: [x4**2 + x4, x3**2 + x3, x2**2 + x2, x1**2 + x1, x0**2 + x0, x0*x3*x4*(x2 + 1) + x0*x4*(x1 + 1)*(x2 + 1)*(x3 + 1) + x0*x4*(x2 + 1) + x1*x3*x4*(x2 + 1) + x1*x4*(x2 + 1)]
+bit: f9, GB: GroebnerBasis([x0*x1*x2*x3*x4 + x0*x1*x2*x4 + x1*x2*x3*x4 + x1*x2*x4, x4**2 + x4, x3**2 + x3, x2**2 + x2, x1**2 + x1, x0**2 + x0], x4, x3, x2, x1, x0, domain='GF(2)', order='grevlex')
+i: x0*x1*x2*x3*x4 + x0*x1*x2*x4 + x1*x2*x3*x4 + x1*x2*x4, type: <class 'sympy.core.add.Add'>
+bit: f14, current_output: [x4**2 + x4, x3**2 + x3, x2**2 + x2, x1**2 + x1, x0**2 + x0, x0*x1*x4*(x2 + 1) + x0*x4*(x1 + 1)*(x2 + 1)*(x3 + 1) + x0*x4*(x2 + 1) + x3*x4*(x1 + 1)*(x2 + 1)]
+bit: f15, GB: GroebnerBasis([x0*x1*x2*x3*x4 + x0*x1*x2*x4 + x0*x1*x3*x4 + x0*x2*x3*x4 + x1*x2*x3*x4 + x0*x1*x4 + x0*x2*x4 + x1*x2*x4 + x0*x3*x4 + x1*x3*x4 + x2*x3*x4 + x0*x4 + x1*x4 + x2*x4 + x3*x4 + x4, x4**2 + x4, x3**2 + x3, x2**2 + x2, x1**2 + x1, x0**2 + x0], x4, x3, x2, x1, x0, domain='GF(2)', order='grevlex')
+i: x0*x1*x2*x3*x4 + x0*x1*x2*x4 bit: f11, GB: GroebnerBasis([x0*x1*x2*x3*x4 + x0*x1*x2*x4 + x0*x1*x3*x4 + x1*x2*x3*x4 + x0*x1*x4 + x1*x2*x4 + x1*x3*x4 + x1*x4, x4**2 + x4, x3**2 + x3, x2**2 + x2, x1**2 + x1, x0**2 + x0], x4, x3, x2, x1, x0, domain='GF(2)', order='grevlex')
+i: x0*x1*x2*x3*x4 + x0*x1*x2*x4 + x0*x1*x3*x4 + x0*x1*x4 + x1*x2*x3*x4 + x1*x2*x4 + x1*x3*x4 + x1*x4, type: <class 'sympy.core.add.Add'>
+bit: f14, GB: GroebnerBasis([x0*x1*x2*x3*x4 + x0*x1*x3*x4 + x0*x2*x3*x4 + x1*x2*x3*x4 + x0*x3*x4 + x1*x3*x4 + x2*x3*x4 + x3*x4, x4**2 + x4, x3**2 + x3, x2**2 + x2, x1**2 + x1, x0**2 + x0], x4, x3, x2, x1, x0, domain='GF(2)', order='grevlex')
+i: x0*x1*x2*x3*x4 + x0*x1*x3*x4 + x0*x2*x3*x4 + x0*x3*x4 + x1*x2*x3*x4 + x1*x3*x4 + x2*x3*x4 + x3*x4, type: <class 'sympy.core.add.Add'>
++ x0*x1*x3*x4 + x0*x1*x4 + x0*x2*x3*x4 + x0*x2*x4 + x0*x3*x4 + x0*x4 + x1*x2*x3*x4 + x1*x2*x4 + x1*x3*x4 + x1*x4 + x2*x3*x4 + x2*x4 + x3*x4 + x4, type: <class 'sympy.core.add.Add'>
+i_new: x0*x1*x2*x3*x4 + x0*x1*x3*x4 + x1*x2*x3*x4 + x1*x3*x4
+i_new: x0*x1*x2*x3*x4 + x0*x1*x2*x4 + x0*x1*x3*x4 + x0*x1*x4 + x0*x2*x3*x4 + x0*x2*x4 + x0*x3*x4 + x0*x4
+bit: f8, current_output: [x4**2 + x4, x3**2 + x3, x2**2 + x2, x1**2 + x1, x0**2 + x0, x0*x1*x2*x4 + x0*x2*x3*x4 + x0*x4*(x1 + 1)*(x2 + 1)*(x3 + 1) + x0*x4*(x1 + 1)*(x3 + 1) + x0*x4*(x2 + 1) + x0*x4 + x1*x3*x4*(x2 + 1) + x3*x4*(x1 + 1) + x3*x4]
+bit: f8, GB: GroebnerBasis([x0*x1*x2*x3*x4 + x1*x2*x3*x4, x4**2 + x4, x3**2 + x3, x2**2 + x2, x1**2 + x1, x0**2 + x0], x4, x3, x2, x1, x0, domain='GF(2)', order='grevlex')
+i_new: x0*x1*x2*x3*x4 + x0*x1*x2*x4 + x1*x2*x3*x4 + x1*x2*x4
+i: x0*x1*x2*x3*x4 + x1*x2*x3*x4, type: <class 'sympy.core.add.Add'>
+i_new: x0*x1*x2*x3*x4 + x0*x2*x3*x4 + x1*x2*x3*x4 + x2*x3*x4
+bit: f13, current_output: [x4**2 + x4, x3**2 + x3, x2**2 + x2, x1**2 + x1, x0**2 + x0, x0*x4*(x1 + 1)*(x2 + 1)*(x3 + 1) + x0*x4*(x1 + 1)*(x3 + 1) + x1*x4 + x3*x4*(x1 + 1) + x4*(x1 + 1)*(x2 + 1)*(x3 + 1) + x4]
+bit: f13, GB: GroebnerBasis([x0*x1*x2*x3*x4 + x0*x1*x2*x4 + x0*x2*x3*x4 + x1*x2*x3*x4 + x0*x2*x4 + x1*x2*x4 + x2*x3*x4 + x2*x4, x4**2 + x4, x3**2 + x3, x2**2 + x2, x1**2 + x1, x0**2 + x0], x4, x3, x2, x1, x0, domain='GF(2)', order='grevlex')
+i: x0*x1*x2*x3*x4 + x0*x1*x2*x4 + x0*x2*x3*x4 + x0*x2*x4 + x1*x2*x3*x4 + x1*x2*x4 + x2*x3*x4 + x2*x4, type: <class 'sympy.core.add.Add'>
+i_new: x0*x1*x2*x3*x4 + x1*x2*x3*x4
+i: x4**2 + x4, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x4**2 + x4, type: <class 'sympy.core.add.Add'>
+i: x3**2 + x3, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i_new: 0
+i: x4**2 + x4, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x2**2 + x2, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x4**2 + x4, type: <class 'sympy.core.add.Add'>
+i: x3**2 + x3, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i_new: x0*x1*x2*x3*x4 + x0*x1*x2*x4 + x0*x2*x3*x4 + x0*x2*x4 + x1*x2*x3*x4 + x1*x2*x4 + x2*x3*x4 + x2*x4
+i_new: x0*x1*x2*x3*x4 + x0*x1*x2*x4 + x0*x1*x3*x4 + x0*x1*x4 + x0*x2*x3*x4 + x0*x2*x4 + x0*x3*x4 + x0*x4 + x1*x2*x3*x4 + x1*x2*x4 + x1*x3*x4 + x1*x4 + x2*x3*x4 + x2*x4 + x3*x4 + x4
+i: x1**2 + x1, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x3**2 + x3, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x4**2 + x4, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x0**2 + x0, type: <class 'sympy.core.add.Add'>
+i_new: x0*x1*x2*x3*x4 + x0*x1*x2*x4 + x0*x1*x3*x4 + x0*x1*x4 + x1*x2*x3*x4 + x1*x2*x4 + x1*x3*x4 + x1*x4
+i_new: 0
+i: x3**2 + x3, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x2**2 + x2, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i_new: 0
+i: x2**2 + x2, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x4**2 + x4, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x3**2 + x3, type: <class 'sympy.core.add.Add'>
+i_new: 0
+bit: f9, modified_poly: x0*x1*x2*x3*x4 + x0*x1*x2*x4 + x1*x2*x3*x4 + x1*x2*x4
+i: x2**2 + x2, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i_new: x0*x1*x2*x3*x4 + x0*x1*x3*x4 + x0*x2*x3*x4 + x0*x3*x4 + x1*x2*x3*x4 + x1*x3*x4 + x2*x3*x4 + x3*x4
+i: x1**2 + x1, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x3**2 + x3, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x1**2 + x1, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x4**2 + x4, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x2**2 + x2, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x0**2 + x0, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x3**2 + x3, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x1**2 + x1, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x4**2 + x4, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x2**2 + x2, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x2**2 + x2, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x1**2 + x1, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x0**2 + x0, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x1**2 + x1, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x0**2 + x0, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x0**2 + x0, type: <class 'sympy.core.add.Add'>
+i: x4**2 + x4, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i_new: 0
+i: x1**2 + x1, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x0**2 + x0, type: <class 'sympy.core.add.Add'>
+i_new: 0
+bit: f8, modified_poly: x0*x1*x2*x3*x4 + x1*x2*x3*x4
+bit: f7, modified_poly: x0*x1*x2*x3*x4 + x0*x1*x2*x4 + x0*x1*x3*x4 + x0*x1*x4 + x0*x2*x3*x4 + x0*x2*x4 + x0*x3*x4 + x0*x4
+i: x3**2 + x3, type: <class 'sympy.core.add.Add'>
+i_new: 0
+bit: f10, modified_poly: x0*x1*x2*x3*x4 + x0*x1*x3*x4 + x1*x2*x3*x4 + x1*x3*x4
+i: x0**2 + x0, type: <class 'sympy.core.add.Add'>
+i_new: 0
+bit: f6, modified_poly: x0*x1*x2*x3*x4 + x0*x1*x3*x4 + x0*x2*x3*x4 + x0*x3*x4
+i: x4**2 + x4, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x3**2 + x3, type: <class 'sympy.core.add.Add'>
+i_new: 0
+bit: f12, modified_poly: x0*x1*x2*x3*x4 + x0*x2*x3*x4 + x1*x2*x3*x4 + x2*x3*x4
+i: x3**2 + x3, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x2**2 + x2, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x2**2 + x2, type: <class 'sympy.core.add.Add'>
+i_new: 0
+bit: f13, modified_poly: x0*x1*x2*x3*x4 + x0*x1*x2*x4 + x0*x2*x3*x4 + x0*x2*x4 + x1*x2*x3*x4 + x1*x2*x4 + x2*x3*x4 + x2*x4
+i: x2**2 + x2, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x1**2 + x1, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x1**2 + x1, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x1**2 + x1, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x0**2 + x0, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x0**2 + x0, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x0**2 + x0, type: <class 'sympy.core.add.Add'>
+i_new: 0
+bit: f14, modified_poly: x0*x1*x2*x3*x4 + x0*x1*x3*x4 + x0*x2*x3*x4 + x0*x3*x4 + x1*x2*x3*x4 + x1*x3*x4 + x2*x3*x4 + x3*x4
+bit: f11, modified_poly: x0*x1*x2*x3*x4 + x0*x1*x2*x4 + x0*x1*x3*x4 + x0*x1*x4 + x1*x2*x3*x4 + x1*x2*x4 + x1*x3*x4 + x1*x4
+bit: f15, modified_poly: x0*x1*x2*x3*x4 + x0*x1*x2*x4 + x0*x1*x3*x4 + x0*x1*x4 + x0*x2*x3*x4 + x0*x2*x4 + x0*x3*x4 + x0*x4 + x1*x2*x3*x4 + x1*x2*x4 + x1*x3*x4 + x1*x4 + x2*x3*x4 + x2*x4 + x3*x4 + x4
+bit: 0
+bit: f5, current_output: [x4**2 + x4, x3**2 + x3, x2**2 + x2, x1**2 + x1, x0**2 + x0, x0*x4*(x1 + 1)*(x2 + 1)*(x3 + 1) + x0*x4*(x1 + 1)*(x3 + 1)]
+bit: f3, current_output: [x4**2 + x4, x3**2 + x3, x2**2 + x2, x1**2 + x1, x0**2 + x0, x0*x3*x4*(x2 + 1) + x0*x4*(x1 + 1)*(x2 + 1)*(x3 + 1) + x0*x4*(x2 + 1)]
+bit: f5, GB: GroebnerBasis([x0*x1*x2*x3*x4 + x0*x1*x2*x4 + x0*x2*x3*x4 + x0*x2*x4, x4**2 + x4, x3**2 + x3, x2**2 + x2, x1**2 + x1, x0**2 + x0], x4, x3, x2, x1, x0, domain='GF(2)', order='grevlex')
+i: x0*x1*x2*x3*x4 + x0*x1*x2*x4 + x0*x2*x3*x4 + x0*x2*x4, type: <class 'sympy.core.add.Add'>
+bit: f3, GB: GroebnerBasis([x0*x1*x2*x3*x4 + x0*x1*x2*x4 + x0*x1*x3*x4 + x0*x1*x4, x4**2 + x4, x3**2 + x3, x2**2 + x2, x1**2 + x1, x0**2 + x0], x4, x3, x2, x1, x0, domain='GF(2)', order='grevlex')
+i: x0*x1*x2*x3*x4 + x0*x1*x2*x4 + x0*x1*x3*x4 + x0*x1*x4, type: <class 'sympy.core.add.Add'>
+bit: f4, current_output: [x4**2 + x4, x3**2 + x3, x2**2 + x2, x1**2 + x1, x0**2 + x0, x0*x1*x2*x4 + x0*x4*(x1 + 1)*(x2 + 1)*(x3 + 1) + x0*x4*(x1 + 1)*(x3 + 1) + x0*x4*(x2 + 1) + x0*x4]
+bit: f4, GB: GroebnerBasis([x0*x1*x2*x3*x4 + x0*x2*x3*x4, x4**2 + x4, x3**2 + x3, x2**2 + x2, x1**2 + x1, x0**2 + x0], x4, x3, x2, x1, x0, domain='GF(2)', order='grevlex')
+i: x0*x1*x2*x3*x4 + x0*x2*x3*x4, type: <class 'sympy.core.add.Add'>
+bit: f2, current_output: [x4**2 + x4, x3**2 + x3, x2**2 + x2, x1**2 + x1, x0**2 + x0, x0*x1*x4*(x2 + 1) + x0*x3*x4*(x2 + 1) + x0*x4*(x1 + 1)*(x2 + 1)*(x3 + 1) + x0*x4*(x2 + 1)]
+bit: f2, GB: GroebnerBasis([x0*x1*x2*x3*x4 + x0*x1*x3*x4, x4**2 + x4, x3**2 + x3, x2**2 + x2, x1**2 + x1, x0**2 + x0], x4, x3, x2, x1, x0, domain='GF(2)', order='grevlex')
+i: x0*x1*x2*x3*x4 + x0*x1*x3*x4, type: <class 'sympy.core.add.Add'>
+bit: f1, current_output: [x4**2 + x4, x3**2 + x3, x2**2 + x2, x1**2 + x1, x0**2 + x0, x0*x2*x3*x4 + x0*x4*(x1 + 1)*(x2 + 1)*(x3 + 1) + x0*x4*(x1 + 1)*(x3 + 1) + x0*x4*(x2 + 1) + x0*x4]
+bit: f1, GB: GroebnerBasis([x0*x1*x2*x3*x4 + x0*x1*x2*x4, x4**2 + x4, x3**2 + x3, x2**2 + x2, x1**2 + x1, x0**2 + x0], x4, x3, x2, x1, x0, domain='GF(2)', order='grevlex')
+i_new: x0*x1*x2*x3*x4 + x0*x1*x2*x4 + x0*x2*x3*x4 + x0*x2*x4
+i: x0*x1*x2*x3*x4 + x0*x1*x2*x4, type: <class 'sympy.core.add.Add'>
+i_new: x0*x1*x2*x3*x4 + x0*x2*x3*x4
+i_new: x0*x1*x2*x3*x4 + x0*x1*x2*x4 + x0*x1*x3*x4 + x0*x1*x4
+bit: f0, current_output: [x4**2 + x4, x3**2 + x3, x2**2 + x2, x1**2 + x1, x0**2 + x0, x0*x1*x2*x4 + x0*x2*x3*x4 + x0*x4*(x1 + 1)*(x2 + 1)*(x3 + 1) + x0*x4*(x1 + 1)*(x3 + 1) + x0*x4*(x2 + 1) + x0*x4]
+i_new: x0*x1*x2*x3*x4 + x0*x1*x2*x4
+bit: f0, GB: GroebnerBasis([x0*x1*x2*x3*x4, x4**2 + x4, x3**2 + x3, x2**2 + x2, x1**2 + x1, x0**2 + x0], x4, x3, x2, x1, x0, domain='GF(2)', order='grevlex')
+i: x0*x1*x2*x3*x4, type: <class 'sympy.core.mul.Mul'>
+i_new: x0*x1*x2*x3*x4
+i_new: x0*x1*x2*x3*x4 + x0*x1*x3*x4
+i: x4**2 + x4, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x4**2 + x4, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x3**2 + x3, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x4**2 + x4, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x4**2 + x4, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x4**2 + x4, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x3**2 + x3, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x2**2 + x2, type: <class 'sympy.core.add.Add'>
+i: x2**2 + x2, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i_new: 0
+i: x3**2 + x3, type: <class 'sympy.core.add.Add'>
+i: x4**2 + x4, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i_new: 0
+i: x1**2 + x1, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x1**2 + x1, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x3**2 + x3, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x3**2 + x3, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x2**2 + x2, type: <class 'sympy.core.add.Add'>
+i: x3**2 + x3, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i_new: 0
+i: x0**2 + x0, type: <class 'sympy.core.add.Add'>
+i: x0**2 + x0, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i_new: 0
+i: x1**2 + x1, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x2**2 + x2, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x2**2 + x2, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x0**2 + x0, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x2**2 + x2, type: <class 'sympy.core.add.Add'>
+i_new: 0
+bit: f0, modified_poly: x0*x1*x2*x3*x4
+bit: f4, modified_poly: x0*x1*x2*x3*x4 + x0*x2*x3*x4
+i: x1**2 + x1, type: <class 'sympy.core.add.Add'>
+i: x1**2 + x1, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i_new: 0
+i: x1**2 + x1, type: <class 'sympy.core.add.Add'>
+i_new: 0
+bit: f1, modified_poly: x0*x1*x2*x3*x4 + x0*x1*x2*x4
+i: x0**2 + x0, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i: x0**2 + x0, type: <class 'sympy.core.add.Add'>
+i: x0**2 + x0, type: <class 'sympy.core.add.Add'>
+i_new: 0
+i_new: 0
+bit: f2, modified_poly: x0*x1*x2*x3*x4 + x0*x1*x3*x4
+bit: f3, modified_poly: x0*x1*x2*x3*x4 + x0*x1*x2*x4 + x0*x1*x3*x4 + x0*x1*x4
+bit: f5, modified_poly: x0*x1*x2*x3*x4 + x0*x1*x2*x4 + x0*x2*x3*x4 + x0*x2*x4
+bit: 10
+bit: 20
+initial circuit cost:  2192
+original total cost:  0
+minimized total cost:  985

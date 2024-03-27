@@ -1,0 +1,64 @@
+.numvars 20
+.variables a b c d e f g h i j k l m n o p q r s t
+.inputs a b c d e f g h i j k l m n o p q r s t
+.outputs a b c d e f g h i j k l m n o p q r s t
+.constants --------------------
+.garbage --------------------
+t2 a a
+t2 r a
+t2 b b
+t2 s b
+t3 a r b
+t2 c c
+t2 t c
+t3 b s c
+t4 a b r c
+t4 a r s c
+t2 d d
+t3 c t d
+t4 b c s d
+t4 b s t d
+t5 a b c r d
+t5 a b r t d
+t5 a c r s d
+t5 a r s t d
+t2 e e
+t4 c d t e
+t5 b c d s e
+t5 b d s t e
+t6 a b c d r e
+t6 a b d r t e
+t6 a c d r s e
+t6 a d r s t e
+t2 f f
+t5 c d e t f
+t6 b c d e s f
+t6 b d e s t f
+t7 a b c d e r f
+t7 a b d e r t f
+t7 a c d e r s f
+t7 a d e r s t f
+t2 g g
+t6 c d e f t g
+t7 b c d e f s g
+t7 b d e f s t g
+t8 a b c d e f r g
+t8 a b d e f r t g
+t8 a c d e f r s g
+t8 a d e f r s t g
+t2 h h
+t7 c d e f g t h
+t8 b c d e f g s h
+t8 b d e f g s t h
+t9 a b c d e f g r h
+t9 a b d e f g r t h
+t9 a c d e f g r s h
+t9 a d e f g r s t h
+t2 i i
+t8 c d e f g h t i
+t9 b c d e f g h s i
+t9 b d e f g h s t i
+t10 a b c d e f g h r i
+t10 a b d e f g h r t i
+t10 a c d e f g h r s i
+t10 a d e f g h r s t i

@@ -1,0 +1,54 @@
+.numvars 8
+.variables f3 f2 f1 f0 x3 x2 x1 x0
+.inputs 0 0 0 0 x3 x2 x1 x0
+.outputs f3 f2 f1 f0 x3 x2 x1 x0
+.constants 0000----
+.garbage 1111----
+t1 f2 
+t3 x0 x1 f2 
+t3 x3 f2 f3
+t1 f2 
+t3 x0 x1 f2 
+t3 x3 f2 f3
+t2 x0 f2 
+t2 x1 f2 
+t4 x2 x3 f2 f3
+t2 x0 f2 
+t2 x1 f2 
+t4 x2 x3 f2 f3
+t1 f3 
+t3 x1 x2 f3 
+t3 x0 f3 f2
+t1 f3 
+t3 x1 x2 f3 
+t3 x0 f3 f2
+t2 x1 f3 
+t2 x2 f3 
+t4 x0 x3 f3 f2
+t2 x1 f3 
+t2 x2 f3 
+t4 x0 x3 f3 f2
+t1 f3 
+t3 x0 x2 f3 
+t3 x1 f3 f1
+t1 f3 
+t3 x0 x2 f3 
+t3 x1 f3 f1
+t2 x0 f3 
+t2 x2 f3 
+t4 x1 x3 f3 f1
+t2 x0 f3 
+t2 x2 f3 
+t4 x1 x3 f3 f1
+t1 f3 
+t3 x0 x1 f3 
+t3 x2 f3 f0
+t1 f3 
+t3 x0 x1 f3 
+t3 x2 f3 f0
+t2 x0 f3 
+t2 x1 f3 
+t4 x2 x3 f3 f0
+t2 x0 f3 
+t2 x1 f3 
+t4 x2 x3 f3 f0

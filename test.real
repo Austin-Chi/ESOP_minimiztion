@@ -1,0 +1,9 @@
+.numvars 5
+.variables a0 a1 a2 a3 a4
+.inputs 0 0 a2 a3 a4
+.outputs a0 a1 a2 a3 a4
+.constants 00---
+.garbage 111--
+t2 a2 a0
+t2 a3 a0
+t2 a4 a0

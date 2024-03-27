@@ -1,0 +1,15 @@
+.numvars 3
+.variables a b c
+.inputs a b c
+.outputs a b c
+.constants ---
+.garbage ---
+t1 a
+t2 b a
+t2 c a
+t3 a b a
+t3 b c a
+t1 b
+t2 a b
+t2 b b
+t2 c b
